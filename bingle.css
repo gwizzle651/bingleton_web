@@ -1,0 +1,29 @@
+#title{
+    text-align: center;
+    color: red;
+}
+.maintext{
+    font-size: large;
+    color: red;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+#near-buttonText{
+    color: red;
+    text-align: center;
+}
+.button{
+    background-color: darkgrey;
+    color: red;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7;
+}
+.categoryheader{
+    text-align: center;
+    color: red;
+}
