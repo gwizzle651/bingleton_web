@@ -2,9 +2,10 @@
 <html lang = "en">
 <head>
 <title>Bingleton</title>
-<link rel ="stylesheet" href ="bingle.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" href ="bingle.css">
+<script defer src="scripts/buttonHoverSounds.js"></script>
 </head>
 <div id="title">
 <h1>Bingleton v1.3.4</h1>
@@ -34,10 +35,10 @@
     <hr>
     <div id="near-buttonText">
     <h4>These buttons will replace you location to a page relating to the subject on the button.:</h4>
-    <button class="button" onclick="location.replace('https://www.history.com/topics/american-civil-war/american-civil-war-history')"><b>Panic in history class!</b></button>
-    <button class="button" onclick="location.replace('https://en.wikipedia.org/wiki/Pi')"><b>Panic in math class!</b></button>
-    <button class="button" onclick="location.replace('https://en.wikipedia.org/wiki/Literal_and_figurative_language')"><b>Panic in Ela class!</b></button>
-    <button class="button" onclick="location.replace('https://en.wikipedia.org/wiki/Scientific_method')"><b>Panic in science class!</b></button>
+    <button class="button" onmouseover="btnHovSound.play()" onmousedown="btnClickSound.play()" onclick="location.replace('https://www.history.com/topics/american-civil-war/american-civil-war-history')"><b>Panic in history class!</b></button>
+    <button class="button" onmouseover="btnHovSound.play()" onmousedown="btnClickSound.play()" onclick="location.replace('https://en.wikipedia.org/wiki/Pi')"><b>Panic in math class!</b></button>
+    <button class="button" onmouseover="btnHovSound.play()" onmousedown="btnClickSound.play()" onclick="location.replace('https://en.wikipedia.org/wiki/Literal_and_figurative_language')"><b>Panic in Ela class!</b></button>
+    <button class="button" onmouseover="btnHovSound.play()" onmousedown="btnClickSound.play()" onclick="location.replace('https://en.wikipedia.org/wiki/Scientific_method')"><b>Panic in science class!</b></button>
     </div>
     <hr>
     <!--Search goes here |input type="text"|-->
