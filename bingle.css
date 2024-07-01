@@ -21,7 +21,7 @@ body{
 .button:hover{
     background-color: black;
     color: white;
-    transition: 0.7;
+    /*transition: 0.7;*/
 }
 .categoryheader{
     text-align: center;
