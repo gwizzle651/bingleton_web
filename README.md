@@ -2,4 +2,3 @@ When I was in school, I had a difficult time getting ahold of game sites and pro
 Feel free to contact me to have a chat, provide more links, or give your feedback on what features I should add, as well as what I can do better.;
 Discord - gwizzle651;
 Email - gwizzle651@proton.me;
-test
